@@ -1,0 +1,22 @@
+{
+  "name": "jest_simonegame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamil-kw/jest_simonegame.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kamil-kw/jest_simonegame/issues"
+  },
+  "homepage": "https://github.com/kamil-kw/jest_simonegame#readme",
+  "devDependencies": {
+    "jest": "^27.4.3"
+  }
+}
