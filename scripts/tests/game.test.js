@@ -30,5 +30,18 @@ describe("game objects contains correct keys", () => {
     test("choices key exists", () => {
         expect("choices" in game).toBe(true);
     });
+    test("choices contains correct ids", () => {
+        expect(game.choices).toEqual(["button1", "button2", "button3", "button4"]);
+    });
+});
+
+describe("new game works correctly", () =>{
+    beforeAll(() => {
+        game.score = 42;
+        newGame();
+    });
+    test("should set game score to zero", () => {
+        expect(game.score).toEqual(0);
+    });
 });
 
